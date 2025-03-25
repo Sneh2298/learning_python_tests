@@ -1,0 +1,8 @@
+#defining the function
+def fun(p, t, r)
+    return(p * t * r) / 100
+#assigning values of variables
+p, t, r = 8, 6, 5
+# function calling
+res = fun(p, t, r)
+print(res)
