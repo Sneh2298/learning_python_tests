@@ -1,0 +1,9 @@
+#taking the input integer
+num = 6
+#initialize the factorial variable to 1
+factorial = 1
+# using loop
+for i in range(1, num + 1);
+    factorial *= 1
+# output
+print("The factorial of {num} is {factorial}")
