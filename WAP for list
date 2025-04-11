@@ -1,0 +1,29 @@
+#writing a program for asking user for 3 movies and returning in the form of list 1 way
+movies = []
+mov1 = input("Enter the first movie: ")
+mov2 = input("Enter the second movie: ")
+mov3 = input("Enter the third movie: ")
+
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
+
+print(movies)
+
+
+#second way
+movies = []
+mov = input("Enter the first movie: ")
+movies.append(mov)
+mov = input("Enter the second movie: ")
+movies.append(mov)
+mov = input("Enter the third movie: ")
+movies.append(mov)
+print(movies)
+
+#third way
+movies = []
+movies.append(input("Enter the first movie")
+movies.append(input("Enter the second movie")
+movies.append(input("Enter the third movie")
+print(movies)
